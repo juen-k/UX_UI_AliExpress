@@ -152,3 +152,30 @@ a {
 .preview {
     width: 90%;
 }
+
+
+@media only screen and (max-width:600px) {
+    .logoContainer {
+        flex-direction: column;
+        width:20%;
+    }
+    .phrase {
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .stores {
+        flex-direction: column;
+    }
+    .storyContainer {
+        flex-direction: column;
+    }
+    .sectionContent {
+        font-size: 8px;
+    }
+    .featureContainer {
+        flex-direction: column;
+    }
+    .features  {
+        font-size: 8px;
+    }
+}
